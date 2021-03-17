@@ -5,7 +5,3 @@ name: default
 platform:
   os: linux
   arch: amd64
-
-steps:
-  - name: hello
-    image: xcode12.2
