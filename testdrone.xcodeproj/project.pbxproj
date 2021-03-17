@@ -13,6 +13,7 @@
 		6E979F8D2601A1220025A7AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E979F8C2601A1220025A7AA /* Preview Assets.xcassets */; };
 		6E979F982601A1220025A7AA /* testdroneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E979F972601A1220025A7AA /* testdroneTests.swift */; };
 		6E979FA32601A1220025A7AA /* testdroneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E979FA22601A1220025A7AA /* testdroneUITests.swift */; };
+		6E979FBC2601E3F70025A7AA /* .drone.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6E979FBB2601E3F70025A7AA /* .drone.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6E979F9E2601A1220025A7AA /* testdroneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testdroneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E979FA22601A1220025A7AA /* testdroneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testdroneUITests.swift; sourceTree = "<group>"; };
 		6E979FA42601A1220025A7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E979FBB2601E3F70025A7AA /* .drone.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .drone.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		6E979F792601A11D0025A7AA = {
 			isa = PBXGroup;
 			children = (
+				6E979FBB2601E3F70025A7AA /* .drone.yml */,
 				6E979F842601A11D0025A7AA /* testdrone */,
 				6E979F962601A1220025A7AA /* testdroneTests */,
 				6E979FA12601A1220025A7AA /* testdroneUITests */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E979FBC2601E3F70025A7AA /* .drone.yml in Resources */,
 				6E979F8D2601A1220025A7AA /* Preview Assets.xcassets in Resources */,
 				6E979F8A2601A1220025A7AA /* Assets.xcassets in Resources */,
 			);

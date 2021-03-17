@@ -1,0 +1,14 @@
+
+kind: pipeline
+type: exec
+name: default
+
+platform:
+  os: darwin
+  arch: amd64
+
+steps:
+- name: build
+  commands:
+  - go build
+  - go test
