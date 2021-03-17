@@ -7,6 +7,4 @@ platform:
 
 steps:
   - name: hello
-    image: alpine
-    commands:
-      - echo Hello World!
+    image: xcode12.2
