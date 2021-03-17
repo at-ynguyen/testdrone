@@ -1,12 +1,7 @@
-
 kind: pipeline
-type: exec
 name: default
-
-platform:
-  os: darwin
-  arch: amd64
-
 steps:
-- name: build
-  image: xcode12.2
+  - name: hello
+    image: alpine
+    commands:
+      - echo Hello World!
