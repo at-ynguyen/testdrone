@@ -7,3 +7,4 @@ steps:
   image: circleci/android:api-30-node
   commands:
   - echo hello world
+  - echo ha ha
