@@ -1,8 +1,9 @@
 kind: pipeline
-type: macstadium
+type: docker
 name: default
 
 steps:
 - name: greeting
+  image: circleci/android:api-30-node
   commands:
   - echo hello world
