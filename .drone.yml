@@ -9,6 +9,4 @@ platform:
 
 steps:
 - name: build
-  commands:
-  - go build
-  - go test
+  image: xcode12.2
